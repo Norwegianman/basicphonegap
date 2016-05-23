@@ -1,0 +1,103 @@
+
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Single page template</title> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head> 
+
+<body> 
+
+<div data-role="page" id="firstpage">
+
+    <div data-role="header">
+        <h1>Single page</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+    <nav data-role="navbar">
+        <ul>
+            
+            <li><a href="#firstpage" class="ui-btn-active">Index</a></li>
+            <li><a href="#secondpage">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>  
+    <h3> Welcome to FooBar</h3>
+    <img  src="img/banner.jpg" class="banner">  
+        <p>This is a single page boilerplate template that you can copy to build your first jQuery Mobile page. Each link or form from here will pull a new page in via Ajax to support the animated page transitions.<br></p>      
+        <a href="#contact" class="ui-shadow ui-btn ui-corner-all"> contact us today</a>
+        
+    </div><!-- /content -->
+    
+    <div data-role="footer">
+        <h4>Copyright &copy; 2015 Jelassi Mohamed</h4>
+    </div><!-- /footer -->
+    
+</div><!-- /page -->
+<div data-role="page" id="secondpage">
+
+    <div data-role="header">
+        <h1>About page</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+     <nav data-role="navbar">
+        <ul>
+            
+            <li><a href="#firstpage" >Index</a></li>
+            <li><a href="#secondpage" class="ui-btn-active">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>   
+    <h3> About FooBar</h3>
+        <p>This is a single page boilerplate template that you can copy to build your first jQuery Mobile page. Each link or form from here will pull a new page in via Ajax to support the animated page transitions.</p>      
+        
+    </div><!-- /content -->
+    
+    <div data-role="footer">
+        <h4>Copyright &copy; 2015 Jelassi Mohamed</h4>
+    </div><!-- /footer -->
+    
+</div><!-- /page -->
+
+<div data-role="page" id="contact">
+
+    <div data-role="header">
+        <h1>Contact page</h1>
+    </div><!-- /header -->
+
+    <div data-role="content"> 
+     <nav data-role="navbar">
+        <ul>
+            
+            <li><a href="#firstpage" >Index</a></li>
+            <li><a href="#secondpage" >About</a></li>
+            <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+            
+        </ul>
+    </nav> 
+    <h3> Contact us:</h3>
+    <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3210.2391497338253!2d10.671570890638625!3d36.427599552966115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stn!4v1464022283585" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+        <p>This is the Contact page</p>      
+        
+    </div><!-- /content -->
+    
+    <div data-role="footer">
+        <h4>Copyright &copy; 2015 Jelassi Mohamed</h4>
+    </div><!-- /footer -->
+    
+</div><!-- /page -->
+
+</body>
+</html>
